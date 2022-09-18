@@ -1,38 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Merriweather&display=swap');
+
+body{
+  margin: 0%;
+  background: rgb(94,17,16);
+  background: linear-gradient(0deg, rgba(94,17,16,1) 0%, rgba(80,109,248,1) 82%);
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-size: 1.5rem;
   min-height: 100vh;
+  font-family: 'Merriweather', serif;
+  flex-direction: column;
+}
+
+.navigate{
+  text-align: center;
+  margin: 0rem auto;
+  padding: 0rem;
+  font-family: 'Bungee Spice', cursive;
+}
+
+.body-container{
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 0rem auto;
+  padding: 0.1rem;
+}
+
+button{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero{
+  margin: 1rem 0.2rem;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero span{
+  margin: 0 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero span:active{
+  transform: scale(1.2);
 }
+
+.hero-section{
+  margin: 1rem auto;
+  text-align: center;
+  padding: 0.4rem;
+  max-width: 90%;
+}
+
+.body-section{
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-block{
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem auto;
+  border-radius: 0.5rem;
+  padding:0.2rem;
+  min-width: 100%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  background-color: #fca5a5;
+  color:#1f2937 ;
+  text-align: center;
+  justify-content: center;
+}
+
+.section-block-author{
+  padding-top: 0.4rem;
+  width: 50%;
+  margin-bottom: 0.5rem;
+  /* margin-right: 1rem; */
+  font-size: 1rem;
+  /* color: #1f2937; */
+}
+
+
+.footer {
+  text-align: center;
+  margin: 0rem auto;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+}
+
+.footer-social-link-bar {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+}
+
+/* .footer-social-link {
+  height: 0.5rem;
+  width: 0.5rem;
+  transition: 0.5s ease;
+  margin: 0rem 1rem;
+} */
+
+.footer-social-link img{
+  height: 3rem;
+  width: 3rem;
+  transition: 0.5s ease;
+  margin: 0rem 0.5rem;
+}
+
+
+
+
+
+
+
